@@ -1,0 +1,10 @@
+.components {
+    width: 97rem;
+    height: 50rem;
+    display: grid;
+    grid-template-columns: repeat(1fr 6);
+    grid-auto-flow: column;
+    margin: auto;
+    background-color: var(--color-White);
+    border-radius: 2rem;
+}

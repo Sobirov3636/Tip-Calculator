@@ -1,0 +1,29 @@
+:root {
+    --color-primary: hsl(172, 67%, 45%);
+    --color-VeryDark-cyan: hsl(183, 100%, 15%);
+    --color-DarkGrayish-cyan1: hsl(186, 14%, 43%);
+    --color-DarkGrayish-cyan2: hsl(186, 14%, 56%);
+    --color-LightGrayish-cyan1: hsl(185, 41%, 84%);
+    --color-LightGrayish-cyan2: hsl(189, 41%, 97%);
+    --color-White: hsl(0, 0%, 100%);
+}
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 63.5%;
+}
+
+body {
+    font-family: "Space Mono", sans-serif;
+    font-weight: 400;
+    line-height: 1.6;
+    background-color: var(--color-LightGrayish-cyan1);
+}
